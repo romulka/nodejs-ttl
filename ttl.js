@@ -5,8 +5,7 @@ var util = require('util'),
 var timer = null;
 
 function Ttl(options) {
-
-	this._store = [];
+	this._store = {};
 
 	this.options = {
 		ttl: 0,
